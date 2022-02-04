@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id = "@+id/about_weblink"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/about_weblink_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/about_weblink"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/about_web_url_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_web_url_link"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        tools:ignore="TextContrastCheck" />
+</LinearLayout>
